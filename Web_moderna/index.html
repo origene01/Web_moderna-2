@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa de Campo / villas</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/lightslider.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="assets/js/JQuery3.3.1.js"></script>
+    <script type="text/javascript" src="assets/js/lightslider.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="menu" id="menu">
+            <div class="contenedor contenedor-botones-menu">
+                <button id="btn-menu-barras" class="btn-menu-barras"><i class="fas fa-bars"></i></button>
+                <button id="btn-menu-cerrar" class="btn-menu-cerrar"><i class="fas fa-times"></i></button>
+            </div>
+
+            <div class="contenedor contenedor-enlaces-nav">
+                <div class="btn-departamentos" id="btn-departamentos">
+                    <p>Show<span>More...</span></p>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+
+                <div class="enlaces">
+                    <a href="index.html">Home</a>
+                    <a href="#">Museums</a>
+                    <a href="#">Gallery</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+
+            <div class="contenedor contenedor-grid">
+                <div class="grid" id="grid">
+                    <div class="categorias">
+                        <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Return</button>
+                        <h3 class="subtitulo">Categories</h3>
+
+                        <a href="#" data-categoria="tecnologia-y-computadoras">ROOMS & SUITES <i
+                                class="fas fa-angle-right"></i></a>
+                        <a href="#" data-categoria="libros">VILLA TIPS<i class="fas fa-angle-right"></i></a>
+                        <a href="#" data-categoria="ropa-y-accesorios">GOLF<i class="fas fa-angle-right"></i></a>
+                        <a href="#" data-categoria="hogar-y-cocina">Home and kitchen<i
+                                class="fas fa-angle-right"></i></a>
+                        <a href="#" data-categoria="juegos-y-juguetes">ACTIVITIES<i class="fas fa-angle-right"></i></a>
+                        <a href="#" data-categoria="salud-y-belleza">Gallery<i class="fas fa-angle-right"></i></a>
+                        <a href="#" data-categoria="alimentos-y-bebidas">OFFERS<i class="fas fa-angle-right"></i></a>
+                    </div>
+
+                    <div class="contenedor-subcategorias">
+                        <div class="subcategoria " data-categoria="tecnologia-y-computadoras">
+                            <div class="enlaces-subcategoria">
+                                <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Return</button>
+                                <h3 class="subtitulo">ROOMS & SUITES</h3>
+                                <a href="#">SUPERIOR CASITAS</a>
+                                <a href="#">DELUXE ROOMS</a>
+                                <a href="#">ELITE ROOMS</a>
+                                <a href="#">ELITE SUITES</a>
+                                <!-- <a href="#">Componentes</a> -->
+                            </div>
+
+                            <div class="banner-subcategoria">
+                                <a href="#">
+                                    <img src="assets/img/ROOMS & SUITES-1.webp" alt="">
+                                </a>
+                            </div>
+
+                            <div class="galeria-subcategoria">
+                                <a href="#">
+                                    <img src="assets/img/ROOMS & SUITES-2.jpg" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="assets/img/hogar-galeria-3.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="assets/img/ROOMS & SUITES-4.jpg" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="assets/img/ROOMS & SUITES-5.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="subcategoria" data-categoria="libros">
+                            <div class="enlaces-subcategoria">
+                                <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Return</button>
+                                <h3 class="subtitulo">VILLA TIPS</h3>
+                                <a href="#">Villa Staff</a>
+                                <a href="#">Pool Safety</a>
+                                <a href="#">Dining in the Villa</a>
+                                <a href="#">Telephone Use</a>
+                                <a href="#">Additional Transportation</a>
+                                <a href="#">Special Villa Treats</a>
+                                <a href="#">Internet Service</a>
+                                <a href="#">Electricity Voltage</a>
+                                <a href="#"></a>
+                            </div>
+
+                            <div class="banner-subcategoria">
+                                <a href="#">
+                                    <img src="assets/img/villa-tips.jpg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="galeria-subcategoria">
+                                <a href="#">
+                                    <img src="assets/img/villa-tips-2.jpg" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="assets/img/villa-tips-3.webp" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="assets/img/villa-tips-4.jpg" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="assets/img/villa-tips-5.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="subcategoria" data-categoria="ropa-y-accesorios">
+                            <div class="enlaces-subcategoria">
+                                <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Return</button>
+                                <h3 class="subtitulo">GOLF</h3>
+                                <a href="#">GOLF COURSES</a>
+                                <a href="#">GOLF INFORMATION</a>
+                                <a href="#">TOURNAMENTS</a>
+                                <a href="#">GOLF INSTRUCTION</a>
+                            </div>
+
+                            <div class="banner-subcategoria">
+                                <a href="#">
+                                    <img src="assets/img/GOLF-1.jpg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="galeria-subcategoria">
+                                <a href="#">
+                                    <img src="assets/img/GOLF-2.jpg" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="assets/img/GOLF-3.jpg" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="assets/img/GOLF-4.jpg" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="assets/img/GOLF-5.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="subcategoria" data-categoria="hogar-y-cocina">
+                            <div class="enlaces-subcategoria">
+                                <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Return</button>
+                                <h3 class="subtitulo">Home and kitchen</h3>
+                                <a href="#">Kitchen room</a>
+                                <a href="#">Home appliances</a>
+                                <a href="#">Cleaning</a>
+                                <a href="#">Bath</a>
+                                <a href="#">Decor</a>
+                                <a href="#">Art</a>
+                                <a href="#">Crafts</a>
+                                <a href="#">Yard</a>
+                            </div>
+
+                            <div class="banner-subcategoria">
+                                <a href="#">
+                                    <img src="assets/img/hogar-banner-1.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="galeria-subcategoria">
+                                <a href="#">
+                                    <img src="assets/img/hogar-galeria-1.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="assets/img/hogar-galeria-2.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="assets/img/hogar-galeria-3.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="assets/img/hogar-galeria-4.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="subcategoria" data-categoria="juegos-y-juguetes">
+                            <div class="enlaces-subcategoria">
+                                <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Return</button>
+                                <h3 class="subtitulo">ACTIVITIES</h3>
+                                <a href="#">ALTOS DE CHAVON</a>
+                                <a href="#">SPORTS</a>
+                                <a href="#">BEACHES</a>
+                                <a href="#">MARINA</a>
+                                <a href="#">EXCURSIONS</a>
+                            </div>
+
+                            <div class="banner-subcategoria">
+                                <a href="#">
+                                    <img src="./img/juegos-banner-1.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="galeria-subcategoria">
+                                <a href="#">
+                                    <img src="./img/juegos-galeria-1.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="./img/juegos-galeria-2.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="./img/juegos-galeria-3.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="./img/juegos-galeria-4.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="subcategoria" data-categoria="salud-y-belleza">
+                            <div class="enlaces-subcategoria">
+                                <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Return</button>
+                                <h3 class="subtitulo">Gallery</h3>
+                                <a href="#">HEALTH & WELLNESS</a>
+                                <a href="#">FOR FAMILIES</a>
+                                <a href="#">ENTERTAINMENT</a>
+                                <a href="#">SHOPPING</a>
+                            </div>
+
+                            <div class="banner-subcategoria">
+                                <a href="#">
+                                    <img src="./img/belleza-banner-1.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="galeria-subcategoria">
+                                <a href="#">
+                                    <img src="./img/belleza-galeria-1.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="./img/belleza-galeria-2.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="./img/belleza-galeria-3.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="./img/belleza-galeria-4.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="subcategoria" data-categoria="alimentos-y-bebidas">
+                            <div class="enlaces-subcategoria">
+                                <button class="btn-regresar"><i class="fas fa-arrow-left"></i>Return</button>
+                                <!-- <h3 class="subtitulo">Alimentos y Bebidas</h3>
+                                <a href="#">Alimentos</a>
+                                <a href="#">Bebidas</a> -->
+                            </div>
+
+                            <div class="banner-subcategoria">
+                                <a href="#">
+                                    <img src="./img/comida-banner-1.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="galeria-subcategoria">
+                                <a href="#">
+                                    <img src="./img/comida-galeria-1.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="./img/comida-galeria-2.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="./img/comida-galeria-3.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="./img/comida-galeria-4.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="main-container">
+            <section class="showcase">
+                <video src="assets/vs/Untitled Project ‐ Made with Clipchamp.mp4" muted loop autoplay></video>
+                <div class="text">
+                    <h2>CASA DE CAMPO</h2>
+                    <h3>RESORT & VILLAS</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <a href="#abaut">Explore</a>
+                </div>
+            </section>
+        </div>
+        </section>
+        <!-- abaut -->
+        <section class="acerca-de">
+            <div class="contenedor">
+                <h2 class="sobre-nosotros" id="abaut" data-aos="fade-down" data-aos-easing="linear"
+                    data-aos-duration="1500">Casa de Campo Resort and Villas</h2>
+                <h3 class="slogan">The ideal for you!</h3>
+                <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dicta rem hic
+                    totam necessitatibus
+                    tempora animi error perferendis. Vero corrupti porro quia! Ad saepe alias, officiis voluptatem sed,
+                    odio
+                    dolores neque dolorem placeat nam quia numquam soluta ipsam nostrum consequuntur, a magnam non.
+                    Tenetur
+                    repudiandae distinctio inventore voluptate fugit laborum?</p>
+                <p class="parrafo" data-aos="fade-left">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Exercitationem dicta rem hic
+                    totam necessitatibus
+                    tempora animi error perferendis. Vero corrupti porro quia! Ad saepe alias, officiis voluptatem sed,
+                    odio
+                    dolores neque dolorem placeat nam quia numquam soluta ipsam nostrum consequuntur, a magnam non.
+                    Tenetur
+                    repudiandae distinctio inventore voluptate fugit laborum?</p>
+                <div class="box-button-abaut">
+                    <a href="#" class="boton" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"
+                        data-aos-duration="1200">Know
+                        more...</a>
+                </div>
+
+            </div>
+        </section>
+        <!-- slider -->
+        <div class="img-slider" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
+            <div class="slide active">
+                <img src="1.jpg" alt="">
+                <div class="info">
+                    <h2>CASA CARES
+                        HEALTH & SAFETY PROTOCOLS</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+
+                </div>
+            </div>
+            <div class="slide">
+                <img src="2.jpg" alt="">
+                <div class="info">
+                    <h2>GOLF CART FOR
+                        EVERY GUEST
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="3.jpg" alt="">
+                <div class="info">
+                    <h2>SECURE & PRIVATE
+                        GATED RESORT</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="4.jpg" alt="">
+                <div class="info">
+                    <h2>TOUCHFREE SERVICES
+                        QR CODES & SIGNAGE</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="5.jpg" alt="">
+                <div class="info">
+                    <h2>CASA CARES
+                        HEALTH & SAFETY PROTOCOLS</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="navigation">
+                <div class="btn active"></div>
+                <div class="btn"></div>
+                <div class="btn"></div>
+                <div class="btn"></div>
+                <div class="btn"></div>
+            </div>
+        </div>
+
+        <section class="villas">
+            <h2 class="sobre-nosotros" id="abaut" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"
+                style="font-weight: 300;">This Week´s Top Offers</h2>
+            <h3 class="slogan" data-aos="fade-right">BOOK NOW & SAVE
+            </h3>
+        </section>
+
+        <div class="container-2">
+            <!--slider------------------->
+            <ul id="autoWidth" class="cs-hidden">
+                <!--1------------------------------>
+                <li class="item-a">
+                    <!--slider-box-->
+                    <div class="box" data-aos="fade-left">
+                        <p class="marvel">ROMANCE PACKAGE</p>
+                        <!--model-->
+                        <img src="assets/img/Black-Friday_beach-couple_02.jpg" class="model">
+                        <!--details-->
+                        <div class="details">
+                            <!--logo-character-->
+                            <a href="#">I'm interested!</a>
+                            <!--character-details-->
+                            <p data-aos="flip-left"><span style="font-size: 25px;">From $299</span>
+                                <hr>
+                                <br>
+                                Casa de Campo Resort & Villas is the ideal setting for a real romantic getaway, full of
+                                activities designed to achieve total relaxation, but, at the same time</p>
+                        </div>
+
+                    </div>
+                </li>
+                <!--2------------------------------>
+                <li class="item-a">
+                    <!--slider-box-->
+                    <div class="box" data-aos="fade-left" data-aos-duration="1000">
+                        <p class="marvel">UNLIMITED GOLF PACKAGES</p>
+                        <!--model-->
+                        <img src="assets/img/practicar-golf-punta-cana.png" class="model">
+                        <!--details-->
+                        <div class="details">
+                            <!--logo-character-->
+                            <a href="assets/contact.html">I'm interested!</a>
+                            <!--character-details-->
+                            <p data-aos="flip-left" data-aos-duration="2000"><span style="font-size: 25px;">From $425</span>
+                                <hr>
+                                <br>
+                                The best golf games are played on the best courses. And you can play on all three of
+                                Casa de Campo‘s award-winning courses.</p>
+                        </div>
+
+                    </div>
+                </li>
+                <!--3------------------------------>
+                <li class="item-a">
+                    <!--slider-box-->
+                    <div class="box" data-aos="fade-left" data-aos-duration="2100">
+                        <p class="marvel">LUXURY ESCAPE IN VILLAS</p>
+                        <!--model-->
+                        <img src="assets/img/villa-1.jpg" class="model">
+                        <!--details-->
+                        <div class="details">
+                            <!--logo-character-->
+                            <a href="#">I'm interested!</a>
+                            <!--character-details-->
+                            <p><span style="font-size: 25px;">From $859</span>
+                                <hr>
+                                <br>
+                                Casa de Campo offers a safe and healthy sanctuary for those needing a fun and thrilling
+                                getaway. Once you enter our gated grounds, we take care of everything else.</p>
+                        </div>
+
+                    </div>
+                </li>
+                <!--4------------------------------>
+                <li class="item-a">
+                    <!--slider-box-->
+                    <div class="box">
+                        <p class="marvel">SPRING INTO SAVINGS SALE</p>
+                        <!--model-->
+                        <img src="assets/img/pitures-3.jpeg" class="model">
+                        <!--details-->
+                        <div class="details">
+                            <!--logo-character-->
+                            <a href="#">I'm interested!</a>
+                            <!--character-details-->
+                            <p><span style="font-size: 25px;">From $249</span>
+                                <hr>
+                                <br>
+                                Spring is a truly beautiful season at Casa de Campo. Flowers are blossoming,
+                                temperatures are warm, and there are many opportunities to escape the cold and enjoy
+                                many fun activities at the resort.</p>
+                        </div>
+
+                    </div>
+                </li>
+                <!--5------------------------------>
+                <li class="item-a">
+                    <!--slider-box-->
+                    <div class="box">
+                        <p class="marvel">CASA INCLUSIVE PACKAGE</p>
+                        <!--model-->
+                        <img src="assets/img/Esplendor_Exclusive_Villa.jpg" class="model">
+                        <!--details-->
+                        <div class="details">
+                            <!--logo-character-->
+                            <a href="#">I'm interested!</a>
+                            <!--character-details-->
+                            <p><span style="font-size: 25px;">From $399</span>
+                                <hr>
+                                <br>
+                                YOU ENJOY THIS ALL-INCLUSIVE PACKAGE, FULL OF EXCITING ACTIVITIES.</p>
+                        </div>
+
+                    </div>
+                </li>
+                <!--6------------------------------>
+                <li class="item-a">
+                    <!--slider-box-->
+                    <div class="box">
+                        <p class="marvel"></p>
+                        <!--model-->
+                        <img src="assets/img/Open-house-1024x" class="model">
+                        <!--details-->
+                        <div class="details">
+                            <!--logo-character-->
+                            <a href="#">.·.·.·.</a>
+                            <!--character-details-->
+                            <p>___ ...</p>
+                        </div>
+
+                    </div>
+                </li>
+
+            </ul>
+
+
+
+
+        </div>
+
+        <div class="contenedor-servicios" data-aos="zoom-in">
+            <img src="assets/img/actividades.png" alt="villas casa de campo">
+            <div class="checklist-service">
+                <div class="service">
+                    <h3 class="n-service">ACTIVITIES</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit perspiciatis velit voluptatem fugiat explicabo odio vitae id provident doloremque sunt?</p>
+                        <a href="#" class="reserve">Reserve!</a>
+                </div>
+        
+            </div>
+        </div>
+        <!-- <section class="container-hero">
+            <div class="hero">
+                <div class="text-category">
+                    <h2 class="hero-title">ROOMS & SUITES</h2>
+                    <p class="herotext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias repudiandae et
+                        blanditiis voluptates, voluptate ullam deserunt aliquam temporibus explicabo, quam aspernatur
+                        modi labore, autem facilis?</p>
+                </div>
+                <picture>
+                    <source media="(min-width:1280px)" srcset="https://dummyimage.com/1200/ffffff/000000" >
+                    <source media="(min-width:800px)" srcset="https://dummyimage.com/800/000000/ffffff">
+                    <source media="(min-width:400px)" srcset="https://dummyimage.com/400/000000/ffffff">
+                    <source media="(min-width:200px)" srcset="https://dummyimage.com/300/000000/ffffff">
+                    <!--  https://dummyimage.com/400/ffffff/000000 
+                    <img src="assets/img/Esplendor_Exclusive_Villa.jpg" alt="Flowers" class="img">
+                </picture>
+            </div>
+            <div class="hero">
+                <div class="text-category">
+                    <h2 class="hero-title">Villas</h2>
+                    <p class="herotext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias repudiandae et
+                        blanditiis voluptates, voluptate ullam deserunt aliquam temporibus explicabo, quam aspernatur
+                        modi labore, autem facilis?</p>
+                </div>
+                <picture>
+                    <source media="(min-width:1280px)" srcset="https://dummyimage.com/1200/000000/ffffff">
+                    <source media="(min-width:800px)" srcset="https://dummyimage.com/800/000000/ffffff">
+                    <source media="(min-width:400px)" srcset="https://dummyimage.com/400/000000/ffffff">
+                    <source media="(min-width:200px)" srcset="https://dummyimage.com/200/000000/ffffff">
+                      https://dummyimage.com/400/ffffff/000000 
+                    <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+                </picture>
+            </div>
+        </section> -->
+
+        <section style="height: 600px;">
+
+        </section>
+    </main>
+    <div id="button-up">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+
+</html>
